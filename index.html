@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shubham Abnave</title>
+  <meta name="description" content="Personal site for Shubham Abnave. Kubernetes, site reliability, and notes from CKA and KCNA study.">
+  <style>
+    :root {
+      --ink: #1c1915;
+      --muted: #5c564c;
+      --line: #e4ddd2;
+      --paper: #f7f3ec;
+      --accent: #0f6e56;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.6;
+    }
+    main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 4.5rem 1.25rem 5rem;
+    }
+    p.kicker {
+      margin: 0 0 0.75rem;
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+    h1 {
+      margin: 0 0 0.75rem;
+      font-size: 2.6rem;
+      font-weight: 500;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+    }
+    h2 {
+      margin: 2.5rem 0 0.6rem;
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 0.78rem;
+      font-weight: 650;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    p { margin: 0.6rem 0; }
+    .lede { font-size: 1.15rem; }
+    ul { margin: 0.4rem 0 0; padding-left: 1.15rem; }
+    li { margin: 0.25rem 0; }
+    a { color: var(--accent); }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.92em;
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--line);
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="kicker">Kubernetes · Site reliability</p>
+    <h1>Shubham Abnave</h1>
+    <p class="lede">I keep my Kubernetes and site reliability study in public. This page is the front door for those notes and for a small lab on how a name becomes an HTTPS site.</p>
+
+    <h2>Study</h2>
+    <p>I am working through the Certified Kubernetes Administrator curriculum and the Kubernetes and Cloud Native Associate material. The notes stay close to the objects and commands.</p>
+    <ul>
+      <li>Scheduling: manual binding, node selectors, taints and tolerations, priority classes</li>
+      <li>Workloads: static pods and admission control</li>
+      <li>Labels and selectors</li>
+    </ul>
+
+    <h2>Notes</h2>
+    <ul>
+      <li><a href="https://github.com/sre-shubham-abnave/cka-notes">cka-notes</a> — CKA preparation</li>
+      <li><a href="https://github.com/sre-shubham-abnave/kcna-notes">kcna-notes</a> — KCNA preparation</li>
+    </ul>
+
+    <h2>This site</h2>
+    <p>The page is a static file on GitHub Pages. The next lab step is a free <code>is-a.dev</code> name, then the DNS lookup, the certificate, and the reason a browser trusts it.</p>
+
+    <footer>
+      <a href="https://github.com/sre-shubham-abnave">github.com/sre-shubham-abnave</a>
+    </footer>
+  </main>
+</body>
+</html>
